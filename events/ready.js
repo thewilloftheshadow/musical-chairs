@@ -11,7 +11,7 @@ module.exports = {
     client.playerManager = new Map();
     client.triviaManager = new Map();
     client.guildData = new Collection();
-    client.user.setActivity('/', { type: 'WATCHING' });
+    client.user.setActivity('the chairs', { type: 'WATCHING' });
     mongoose
       .connect(encodeURI(mongo_URI))
       .then(() => {
