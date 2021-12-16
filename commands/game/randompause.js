@@ -33,11 +33,11 @@ module.exports = {
     setTimeout(() => {const success = player.audioPlayer.pause();
 
     if (success) {
-      return interaction.reply(
+      return interaction.editReply(
         ':pause_button: Song was paused! To unpause, use the resume command'
       );
     } else {
-      return interaction.reply(
+      return interaction.editReply(
         'I was unable to pause this song, please try again soon'
       );
     }

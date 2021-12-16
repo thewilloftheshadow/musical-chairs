@@ -28,7 +28,7 @@
     "spotify-url-info": "^2.2.3",
     "youtube-dl-exec": "^2.0.0",
     "youtube-sr": "^4.1.9",
-    "ytdl-core": "^4.9.1"
+    "ytdl-core": "^4.9.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
